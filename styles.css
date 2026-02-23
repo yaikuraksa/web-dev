@@ -1,0 +1,28 @@
+/*This is correct formatting for CSS*/
+
+body {
+  font-family:serif
+}
+
+p, h1, h2 {
+  color:purple
+}
+
+a {color:magenta}
+
+a:hover {
+  color:navy
+}
+
+ul li {
+  font-style:italic
+}
+
+ol .int-link, ol p {
+  font-weight:bold
+}
+
+#mail-link {
+  color:purple
+}
+}
