@@ -1,0 +1,84 @@
+body {
+  margin:0px;
+  font-size:17px;
+  font-family: 'zain', cursive;
+  background-color:#FFF4DC;
+  color:#;
+}
+
+h2 {
+  font-family:'neonderthaw';
+  font-size:180%;
+  text-align:center
+}
+
+h1 {
+  font-family:'neonderthaw';
+  font-size:50px;
+  text-align:center;
+  background-color:#D6D9A9;
+  border: solid 2px #5C3F3F;
+  margin-left:60px;
+  margin-right:60px;
+  border-radius:10px; 
+}
+
+div.card {
+  background-color:#D6D9A9;
+  margin-left:75px;
+  margin-right:75px;
+  padding:0px 15px 0px;
+  border-radius: 10px;
+  border: solid 2px #5C3F3F;
+}
+
+hr {
+  margin-left:75px;
+  margin-right:75px;
+  border-color:#5C3F3F;
+}
+
+#intro {
+  margin-left:60px;
+  margin-right:60px;
+  text-align:center;
+}
+
+.mov-link {
+  color:#633A37;
+  font-weight: bold;
+  text-decoration:none;
+}
+
+.mov-link-title {
+  color:#000;
+  text-decoration:none;
+}
+
+a.mov-link:hover {
+  color:#A36865;
+}
+
+a.mov-link-title:hover {
+  text-shadow: 2px 2px 5px #A36865 
+}
+
+#footer {
+  text-align: center;
+  color:#000
+}
+
+div p a {
+  text-decoration:none;
+  color:#000;
+  font-weight:bold;
+  font-style:italic;
+}
+
+#foot-link:hover {
+  color:#A36865
+}
+
+.fun-words {
+  text-shadow: 1px 1px 2px #EDA1EB
+}
