@@ -1,7 +1,17 @@
 /*This is correct formatting for CSS*/
 
 body {
-  font-family:serif
+  font-family:serif;
+  margin:0px;
+}
+
+#back-img {
+  position:fixed;
+  top:0px;
+  z-index:-10;
+  width:100vw;
+  height:100vh;
+  opacity:.2;
 }
 
 p, h1, h2 {
@@ -24,5 +34,4 @@ ol .int-link, ol p {
 
 #mail-link {
   color:purple
-}
 }
