@@ -1,3 +1,71 @@
+body {
+  margin:0px;
+}
+
+h1 {
+  width:50%;
+  text-align:center;
+  margin:10px auto;
+}
+
+#nav-menu {
+  display:flex;
+  flex:1 1 auto;
+  justify-content: space-evenly;
+  position:sticky;
+  top:0px;
+  background-color:#C787C9;
+}
+
+.nav-divs {
+  text-align:center;
+  flex-grow: 1;
+  position:relative;
+  top:0px;
+}
+
+.nav-divs a {
+  display:inline-block;
+  width:100%;
+  text-decoration:none;
+  padding: 10px 0px 15px;
+}
+
+a {
+  color:inherit;
+}
+
+.nav-divs ul {
+  display:none;
+  position:absolute;
+  background-color:#D9AEDB;
+  list-style-type:none;
+  padding-left:0px;
+  margin:0px;
+  width:100%;
+}
+
+.nav-divs:hover {
+  background-color:#D9AEDB;
+  font-weight:bolder;
+}
+
+.nav-spacer {
+  flex-grow:0;
+  width:0px;
+  margin:0px;
+  padding:0px;
+  border:1px solid grey;
+}
+
+.nav-divs:hover ul {
+  display:block;
+}
+
+.nav-divs ul a:hover {
+  color:#4F2451;
+}
+
 /*This is correct formatting for CSS*/
 
 body {
@@ -18,10 +86,10 @@ p, h1, h2 {
   color:purple
 }
 
-a {color:magenta}
+a {color:purple}
 
 a:hover {
-  color:navy
+  color:purple
 }
 
 ul li {
@@ -35,3 +103,5 @@ ol .int-link, ol p {
 #mail-link {
   color:purple
 }
+
+
