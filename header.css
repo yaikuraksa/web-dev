@@ -55,3 +55,22 @@ a {
 .nav-divs ul a:hover {
   color:#4F2451;
 }
+/*This is next CSS*/
+a {color:purple}
+
+a:hover {
+  color:purple
+}
+
+ul li {
+  font-style:italic
+}
+
+ol .int-link, ol p {
+  font-weight:bold
+}
+
+#mail-link {
+  color:purple
+}
+
