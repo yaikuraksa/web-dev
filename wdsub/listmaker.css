@@ -1,0 +1,36 @@
+#back-img {
+  z-index:-9;
+  opacity:.3;
+  width:100vw;
+  position:fixed;
+  top:0px;
+  height:100vh;
+}
+
+body {
+  background-color:pink;
+  margin:0px;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+#content {
+  color:black;
+}
+
+#input-grp {
+ text-align:center;
+}
+
+h1 {
+  text-align:center;
+  text-decoration:2px pink wavy underline
+}
+
+li button{
+  background-color:rgba(0,0,0,0);
+  border:none;
+}
