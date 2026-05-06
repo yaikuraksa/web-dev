@@ -4,8 +4,7 @@ let unordList = document.getElementById("unord-list");
 let itemInput = document.getElementById("item-input");
 if (document.cookie != "") loadItems();
 
-//uncomment this later
-//itemInput.focus();
+itemInput.focus();
 
 document.addEventListener("keydown",(key) => {
   console.log(key.code);
