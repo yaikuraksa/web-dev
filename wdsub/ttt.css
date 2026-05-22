@@ -1,0 +1,49 @@
+body {
+  margin:0px;
+  background-color:pink;
+}
+
+h1 {
+  text-align:center;
+}
+
+.ttt-square {
+  border: black solid 3px;
+  min-height: 100px;
+  width:30%;
+  flex-grow: 1;
+  font-size:2rem;
+  text-align:center;
+}
+
+.ttt-row {
+  display: flex;
+  flex: 1 1 auto;
+  jusitfy-content: space-evenly;
+  min-width: 500px;
+  margin: 0px 50px;
+  font-size:2rem;
+  text-align:center;
+}
+
+#game-over {
+  background-color: rgba(0, 0, 0, .5);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: none;
+  z-index:900;
+}
+
+#game-over div {
+  background-color: white;
+  width: 40%;
+  height: 200px;
+  border-radius: 8px;
+  margin: 100px auto;
+  text-align: center;
+  padding: 30px;
+  font-size: 2rem;
+}
