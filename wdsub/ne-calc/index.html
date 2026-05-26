@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Normal Form Calculator</title>
+  </head>
+  <body>
+    <h1>Normal Form Calculator</h1>
+    <div id="directions">
+    <p>This calculator takes a two-player game in normal form and computes pure-strategy Nash Equuilibrium using Best Response.</p>
+    <p>To use the calculator, begin by entering the number of pure strategies available to player 1 and the number of available strategies to player 2. Then press <span id="go">Go</span>. On the next screen, enter the payoff pairs for each outcome and press <span id="comp">compute</span>.</p>
+    </div>
+    
+    <div id="input-grp">
+    <label for="play-1-input">Number of Pure Strategies for P1:</label>
+    <input type="number" id="play-1-input" min="1" max="8" value="2">
+    
+    <br>
+    <br>
+    
+    <label for="play-2-input">Number of Strategies for P2:</label>
+    <input type="number" id="play-2-input" min="1" max="8" value="2">
+    
+    
+    <br>
+    <br>
+    
+    <button onclick="enterMatrix">Go</button>
+    </div>
+    
+ <script>
+   function enterMatrix() {
+     //get input values to next page
+     let p1NumStrats = document.getElementById("play-1-input").value;
+     let p2NumStrats = document.getElementById("play-2-input").value;
+     //send user to matrix page
+     navigation.navigate("matrix.html?p1NumStrats=" + p1NumStrats + "&p2NumStrats=" + p2NumStrats);
+   }   
+   
+ </script>
+    
+    
+    
+    
+  </body>
+</html>
